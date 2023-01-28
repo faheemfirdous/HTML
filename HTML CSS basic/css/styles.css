@@ -1,0 +1,25 @@
+body 
+{
+    background-color: powderblue;
+}
+hr
+{
+    border-style: dotted none none none;
+    width: 10%;
+    border-color: rgb(92, 118, 92);
+    border-spacing: 4px;
+    border-width: 5px;
+}
+img 
+{
+    height: 250px;
+    width: 250px;
+}
+h1
+{
+    color: grey;
+}
+h3
+{
+    color: brown;
+}
