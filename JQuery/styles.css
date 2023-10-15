@@ -1,0 +1,25 @@
+.bigTitle
+{
+    margin: 50;
+    color: green;
+    font-size: 10rem;
+    font-family: cursive;
+}
+.goodTitle
+{
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+}
+
+.margin-50
+{
+    margin: 50px;
+}
+
+h2 {
+    font-size: 5rem;
+}
+h3 {
+    font-size: 4rem;
+}

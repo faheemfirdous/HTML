@@ -1,0 +1,51 @@
+.head
+{
+    background-color: royalblue;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+}
+
+.c {
+
+    height: 80%;
+    display: flex;
+}
+
+.f {
+
+    width: 100%;
+    background-color: rgb(217, 235, 241);
+    border-style: double;
+    border-radius: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.in {
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    display: table;
+    border-radius: 5ch;
+    text-align: center;
+    display: flex;
+}
+
+.s {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    display: table;
+    border-radius: 5ch;
+    background-color: royalblue;
+
+}
+
+.a {
+
+    color: black;
+
+}

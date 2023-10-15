@@ -1,0 +1,194 @@
+/* whole code */
+body
+{
+    font-family: 'Montserrat';
+    line-height: 1.5; 
+    background-color: #ff4c68;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+    width: auto;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 3rem;
+    font-weight: 600;
+}
+/* title section */
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+#title
+{
+    color: white;
+    
+    height: 700px;
+    position: relative;
+    z-index: -2;
+}
+.tittle-heading
+{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.title-image
+{
+    transform: rotate(25deg);
+    width: 50%;
+    position: relative;
+    z-index: -1;
+    left: 30%;
+}
+li
+{
+    padding: 0 0 0 18px;
+    font-size: 1.2rem;
+}
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+
+/* features section */
+#features
+{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    height: 500px;
+    z-index: 1;
+}
+.features-text
+{
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.icoon
+{
+    color: #ef8172;
+}
+.icoon:hover
+{
+    color: #ff4c68;
+}
+.fetures-para
+{
+    color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials
+{
+    text-align: center;
+    color: #fff;
+}
+.testimonials-img
+{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+/* press section */
+#press
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.press-logos
+{
+    margin: 20px 20px 15px 20px;
+    width: 10%;
+}
+
+/* pricing section */
+
+#pricing
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+.pricing-grid
+{
+    margin: auto;
+}
+.pricing-columns
+{
+    padding: 3% 2%;
+}
+.h3-pricing
+{    
+    font-size: 1.5rem;
+}
+.h2-pricing
+{
+    font-size: 2rem;  
+}
+
+ /* making website for mobile and tablet */
+@media (max-width: 1028) {
+    .title-image
+    {
+        position: static;
+        transform: rotate(0deg);
+    }
+    h1
+    {
+        text-align: center;
+    }   
+}
+
+/* cta section */
+#cta
+{
+    padding-bottom: 100px;
+}
+.cta-div
+{
+    width: 45%;
+    margin: auto;
+}
+.cta-text
+{
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 100px 50px 50px 50px;
+}
+.cta-button-1
+{
+    margin-left: 42%;
+}
+.cta-button-2
+{
+    margin-left: 10px;
+}
+
+/* footer section  */
+#footer
+{
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 10px;
+    color: grey;
+    line-height: 3;
+    font-size: larger;
+}
+.footer-links
+{
+    padding: 40px 10px;
+    color: grey;
+}
+.footer-links:hover
+{
+    color: #ff4c68;
+}

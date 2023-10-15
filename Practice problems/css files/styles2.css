@@ -1,0 +1,6 @@
+body
+{
+    background: linear-gradient(red, orange, yellow);
+    background-repeat: no-repeat;
+    text-align: center;
+}

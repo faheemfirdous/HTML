@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta tag is data about data it tell the browser what the webpage is about,meta tag don't need closing tag they are written
+     in head and we have different method like name that tell the brower about the what this
+      tag represent then content this contains the actual information-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML webpage">
+    <meta name="keywords" content="HTML, element">
+    <title>Practice website</title>
+    <link rel="stylesheet" href="/css files/styles2.css"> <!-- this is used to add css sheet to html-->
+</head>
+
+<body>
+    <!--h1 to h6 tag are predefined font sizes and we can use them according to our need-->
+    <h1>This is my website</h1>
+    <hr> <!--Horizontal rule used to divide the web page we can also modify it-->
+    <h1>This is title enclosed in h1 header</h1>
+    <br> <!--break tag is used to add space between two elements-->
+    <h2>This is title enclosed in h2 header</h2>
+    <br>
+    <h3>This is title enclosed in h3 header</h3>
+    <br>
+    <h4>This is title enclosed in h4 header</h4>
+    <h5>This is title enclosed in h5 header</h5>
+    <h6>This is title enclosed in h6 header</h6>
+
+    <!--paragraph tag simple allows use to add a paragraph-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, explicabo amet eius ducimus in, omnis quibusdam
+        molestias cupiditate nam dignissimos repellat minima consequuntur eaque cumque! Quod esse consequuntur
+        reprehenderit doloremque.</p>
+
+    <!--anchor tag is used to add a url to text image anything and target method allows us to open 
+        that url in new tab or the same tab, title method shows a pop up when we hover the cursor over the anchor tag-->
+    <a href="http://www.google.com" target="_blank" title="This will take you to google">Google</a>
+    <br>
+
+    <!--img tag is used to add an image to the web page src and alt methods are used to add source of intended image 
+        we want to show and alt is show an alternate message if image is not a valid one 
+        width, height and title methdos are used to the same-->
+    <a href="https://blog.devgenius.io/6-best-programmers-of-all-time-deee13c8792d" target="_blank">
+        <img src="\Material\Photo.jpg" alt="Greatest coder to ever exist" width="25%" height="25%"
+            title="This is an image of the greatest coder that has ever lived">
+    </a> <!--here we used an image as anchor link-->
+
+    <br>
+    <!-- audio element adds audio control to the web page and we need to add autoplay method playes the audio by default and muted method mutes the audio and 
+        controls method to it and this is a boolean method and we have to add them to set their value true -->
+    <audio controls muted>
+        <source src="\Material\Underground Academy - Hanu Dixit.mp3"> <!--this another method to add source to the audio element to add multiple sources to the 
+                                                                        audio element -->
+    </audio>
+
+    <br>
+    <!--video element has same controls and other methods as audio-->
+    <video controls autoplay height="50%" width="50%" muted>
+        <source src="\Material\Soulking..mp4">
+    </video>
+
+    <!--HTML text formating tags-->
+    <p>This is a normal text</p>
+    <p>This is a <b>bold</b> text</p>
+    <p>This is a <i>italic</i> text</p>
+    <p>This is a <big>big</big> text</p>
+    <p>This is a <small>small</small> text</p>
+    <p>This is a <sub>subscript</sub> text</p>
+    <p>This is a <sup>superscript</sup> text</p>
+    <p>This is a <ins>inserted</ins> text</p>
+    <p>This is a <del>deleted</del> text</p>
+    <p>This is a <mark>marked</mark> text</p>
+    <p>This is a normal text</p>
+
+    <!--unordered list-->
+    <h4>Unordered List</h4>
+    <ul>
+        <li>unordered list item 1</li>
+        <li>unordered list item 2</li>
+        <li>unordered list item 3</li>
+        <!--list items-->
+    </ul>
+    <!--ordered list -->
+    <h4>Ordered list</h4>
+    <ol type="A"> <!--type method is used to change the numbering of list-->
+        <li>ordered list item 1</li>
+        <li>ordered list item 2</li>
+        <li>ordered list item 3</li>
+    </ol>
+    <!--descriptive list-->
+    <h4>Descriptive list</h4>
+    <dl>
+        <dt>Descriptive list item 1</dt> <!--descriptive text-->
+        <dd>this the description itemn 1</dd> <!--descriptive defination-->
+
+        <dt>Descriptive list item 2</dt>
+        <dd>this the description itemn 2</dd>
+    </dl>
+
+    <!--table element we use <tr> to add rows and <th> to add table header and <td> to add table data
+        we can add different styles to each cell or to the whole table-->
+    <h3>Working hours</h3>
+    <table bgcolor="black" width="700">
+        <tr bgcolor="grey">
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr bgcolor="lightgrey" align="center">
+            <td>Closed</th>
+            <td>9am-10pm</th>
+            <td>9am-10pm</th>
+            <td>9am-8pm</th>
+            <td>9am-12pm</th>
+            <td>9am-1pm</th>
+            <td>closed</th>
+        </tr>
+    </table>
+
+    <!--DIV = defines a division of a document-->
+    <div style="background-color: grey;">
+        <p style="color: red;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores similique eaque nobis quia qui repellendus
+            debitis
+            sunt consectetur, reprehenderit nihil, ipsam corporis enim quisquam ratione. Reprehenderit commodi
+            laudantium doloribus aut.
+        </p>
+        <p>
+            <span style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit</span>. Corrupti sequi
+            animi tenetur?
+            Optio consequuntur, hic, blanditiis iure quae <spam style="color: blue;">at minus odio repellat provident
+                quos, sit tempora</span> enim beatae quasi illo.
+        </p> <!--SPAN = adds markup to text or portion of a document-->
+        <p style="color: pink;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores similique eaque nobis quia qui repellendus
+            debitis
+            sunt consectetur, reprehenderit nihil, ipsam corporis enim quisquam ratione. Reprehenderit commodi
+            laudantium doloribus aut.
+        </p>
+    </div>
+
+    <!-- iframe = embed content from another source into an HTML document. ex used for ads, used in many hacking techiques-->
+    <iframe src="\Material\images.jpeg" frameborder="0" width="750" height="200"></iframe>
+    <!--here we embed a image to our website we can use it to embed anything-->
+    <iframe src="forum.html" width="750" height="400" width="50" frameborder="0"></iframe>
+    <!-- many websites have disabled the use of iframe and refuse to connect to our page inorder to avoid hacking-->
+    <br>
+    <!--buttons = these are simple buttons and we can any sort of style to using css and we can wrap this around in an anchor tag also-->
+    <button>Click me</button>
+
+    <button onclick="showText()"> Plis click me</button>
+    <p id="test">Meow meow nigga</p>
+    <!-- id and class are used to identify an element or multiple elements  -->
+    <!--Javascript function in html file-->
+    <script>
+        function showText() {
+            document.getElementById("test").innerHTML = "Bye Bye nigga"
+        }
+    </script>
+
+    <!--form with various input methods-->
+    <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name nigga">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name nigga">
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email nigga">
+        <br>
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender">Male
+        <input type="radio" name="gender" id="gender">Female
+        <br>
+        <label for="subscribe">subscribe: </label>
+        <input type="checkbox">
+        <input type="range">
+        <br>
+        <label for="date">Enter your date of birth</label>
+        <input type="date">
+        <br>
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <option>B.Tech </option>
+            <option>MCA </option>
+            <option>MSC </option>
+            <option>B.arch </option>
+        </select>
+    </form>
+
+</body>
+
+</html>

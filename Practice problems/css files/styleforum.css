@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: #D0BFFF;
+    font-family: sans-serif;
+}
+
+
+
+tr {
+    height: 40px;
+}
+
+td {
+    width: 250px;
+}
+
+table {
+
+    margin: auto;
+    border: 0;
+    background-color: #E4E4D0;
+}
+
+.bottom {
+    text-align: right;
+}
+
+thead {
+    text-align: left;
+    font-size: 2rem;
+}
+
+.sign {
+    margin-left: 10px;
+}
+
+thead,
+.bottom {
+    background-color: #AEC3AE;
+    height: 60px;
+}
+
+.labell {
+    text-align: right;
+}
+
+button {
+    height: 50px;
+    width: 60px;
+    border: none;
+    background-color: #AEC3AE;
+    font-size: large;
+    margin: 10px;
+}
